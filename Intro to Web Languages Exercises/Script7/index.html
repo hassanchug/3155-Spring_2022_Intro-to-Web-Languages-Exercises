@@ -1,0 +1,31 @@
+<!-- Name: Hassan Chughtai -->
+<!-- Group Members: Paul Thottappilly, Ivory Steed, Tony Le, Shekar Balasubramaniam -->  
+
+<!-- Used the Jan 31st zoom recording as a resource -->
+<html>
+    <head>
+        <title>
+            Script 7
+        </title>
+    </head>
+    <body>
+        <input id="name-input" type="text" placeholder="Enter your name" />
+        <button id="my-button">Click Me</button>
+
+        <script>
+        // creates a click me button that can be slected by a variable 
+        var myButton = document.querySelector('#my-button');
+        // Takes the inputed name and sets it to the name input variable 
+        var nameInput = document.querySelector('#name-input');
+
+        // prints an alert after you click the button that includes the inputed name 
+        myButton.addEventListener('click', function () {
+            // creates a argument to print the hello and the inputed name if the textbox isnt empty 
+            if (nameInput.value !== '') {
+                // prints the alert to a user with the text hello + inputed name 
+                alert('Hello ' + nameInput.value);
+            }
+            });
+        </script>
+    </body>
+</html>

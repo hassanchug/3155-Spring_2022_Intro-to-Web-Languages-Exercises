@@ -1,0 +1,20 @@
+/* Name: Hassan Chughtai 
+Group Members: Paul Thottappilly, Ivory Steed, Tony Le, Shekar Balasubramaniam
+
+Used the Jan 31st zoom recording as a resource */
+    
+    /* Adds body style for the body of the whole page to change color and font*/
+    body{
+        background-color: mediumaquamarine;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    /* Adds content style for the paragraphs that makes a margin from the bottom  */
+    .content{
+        margin-bottom: 12px;
+        } 
+    /* Adds the main title id tag for the header and aligns it center*/
+    #main-title {
+        text-align: center;
+    }
+
+   
